@@ -27,9 +27,35 @@ lista_reclamacao = sopa.find_all('div', class_ = 'bJdtis')
 
 # print(lista_reclamacao)
 
+titulos = []
+textos = []
+
 for reclamacao in lista_reclamacao:
-    titulos = reclamacao.select('a h4')
-    print(titulos[0].get_text())
+    titulo = reclamacao.select('a h4')
+    texto = reclamacao.select('p')
+    titulos.append(titulo[0].get_text())
+    textos.append(texto[0].get_text())
+    print(titulo[0].get_text())
+    print('~X------------V----------X~')
+    print(texto[0].get_text())
+    print('~X------------^----------X~')
+
+print('AQ:')
+
+titulosUnicos = []
+
+for titulo in titulos:
+    tituloStr = str(titulo)
+    palavra = tituloStr.split()
+    for palavra2 in palavra:
+        titulosUnicos.append(palavra2)
+
+titulosFiltrados = []
+
+print(titulosUnicos)
+
+
+# print("AAA" + type(texto))
 
 # print(sopa.prettify())
 
