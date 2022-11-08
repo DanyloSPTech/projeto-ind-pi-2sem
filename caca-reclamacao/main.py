@@ -10,6 +10,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
 from webdriver_manager.firefox import GeckoDriverManager
 from bs4 import BeautifulSoup
+import csv
 
 url_base = "https://www.reclameaqui.com.br/empresa/c6-bank/lista-reclamacoes/?busca=pix&pagina="
 
@@ -52,8 +53,16 @@ for titulo in titulos:
 
 titulosFiltrados = []
 
-print(titulosUnicos)
+for palavra in titulosUnicos:
+    palavraLower = palavra.lower()
+    if palavraLower != "e":
+        titulosFiltrados.append(palavraLower)
 
+with open('words_scraper.csv', 'w', newline='', encoding='UTF8') as arquivo:
+    writer = csv.DictWriter(arquivo, fieldnames=['Palavra'])
+    writer.writeheader()
+    for palavra in titulosFiltrados:
+        writer.writerow({'Palavra': palavra})
 
 # print("AAA" + type(texto))
 

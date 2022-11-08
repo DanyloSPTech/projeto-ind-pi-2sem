@@ -797,3 +797,225 @@ JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch res
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667865002716	geckodriver	INFO	Listening on 127.0.0.1:56661
+1667865005992	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56662" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Wind\\AppData\\Local\\Temp\\rust_mozprofilekcrHHh"
+1667865008921	Marionette	INFO	Marionette enabled
+1667865009131	Marionette	INFO	Listening on port 56674
+Read port: 56674
+WebDriver BiDi listening on ws://127.0.0.1:56662
+1667865009629	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Wind\\AppData\\Local\\Temp\\rust_mozprofilekcrHHh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56662/devtools/browser/2346a456-6a9f-45dd-829d-15f7cb879da9
+JavaScript warning: https://www.reclameaqui.com.br/Cu5FVCWMKAj3OrbXNBbRW2TR/pS9f6LGk/ZHFXenIRVwc/HVsPdwdw/L1gB, line 1: unreachable code after return statement
+1667865039548	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://auth.reclameaqui.com.br/z28H9/ATL/HZYk/E8/uSHmET/wwJYJ2cSha5c/QC9EKwE/SA1C/enMnPFwB, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vLbRz7g6TQ5oo3iSl-9A8cc-tNTKSUSKynQIdvKxkcY.js line 2 > eval line 3535 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.reclameaqui.com.br/Cu5FVCWMKAj3OrbXNBbRW2TR/pS9f6LGk/ZHFXenIRVwc/HVsPdwdw/L1gB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/z28H9/ATL/HZYk/E8/uSHmET/wwJYJ2cSha5c/QC9EKwE/SA1C/enMnPFwB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/z28H9/ATL/HZYk/E8/uSHmET/wwJYJ2cSha5c/QC9EKwE/SA1C/enMnPFwB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.reclameaqui.com.br/Cu5FVCWMKAj3OrbXNBbRW2TR/pS9f6LGk/ZHFXenIRVwc/HVsPdwdw/L1gB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667865063953	Marionette	INFO	Stopped listening on port 56674
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1667865070960	geckodriver	INFO	Listening on 127.0.0.1:56858
+1667865073962	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56859" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Wind\\AppData\\Local\\Temp\\rust_mozprofilexXTX1j"
+1667865074616	Marionette	INFO	Marionette enabled
+1667865074626	Marionette	INFO	Listening on port 56869
+Read port: 56869
+WebDriver BiDi listening on ws://127.0.0.1:56859
+1667865074913	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Wind\\AppData\\Local\\Temp\\rust_mozprofilexXTX1j\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56859/devtools/browser/21c00d01-e03a-4510-9ca8-f267bf012ace
+JavaScript warning: https://www.reclameaqui.com.br/Cu5FVCWMKAj3OrbXNBbRW2TR/pS9f6LGk/ZHFXenIRVwc/HVsPdwdw/L1gB, line 1: unreachable code after return statement
+1667865082210	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://www.reclameaqui.com.br/Cu5FVCWMKAj3OrbXNBbRW2TR/pS9f6LGk/ZHFXenIRVwc/HVsPdwdw/L1gB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.reclameaqui.com.br/Cu5FVCWMKAj3OrbXNBbRW2TR/pS9f6LGk/ZHFXenIRVwc/HVsPdwdw/L1gB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/z28H9/ATL/HZYk/E8/uSHmET/wwJYJ2cSha5c/QC9EKwE/SA1C/enMnPFwB, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/z28H9/ATL/HZYk/E8/uSHmET/wwJYJ2cSha5c/QC9EKwE/SA1C/enMnPFwB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/z28H9/ATL/HZYk/E8/uSHmET/wwJYJ2cSha5c/QC9EKwE/SA1C/enMnPFwB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vLbRz7g6TQ5oo3iSl-9A8cc-tNTKSUSKynQIdvKxkcY.js line 2 > eval line 708 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1667866613333	Marionette	INFO	Stopped listening on port 56869
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1667867916408	geckodriver	INFO	Listening on 127.0.0.1:60576
+1667867919451	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60577" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Wind\\AppData\\Local\\Temp\\rust_mozprofileCM10qE"
+1667867920219	Marionette	INFO	Marionette enabled
+1667867920225	Marionette	INFO	Listening on port 60587
+Read port: 60587
+WebDriver BiDi listening on ws://127.0.0.1:60577
+1667867920458	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Wind\\AppData\\Local\\Temp\\rust_mozprofileCM10qE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60577/devtools/browser/e9fd927f-9f8b-4368-9c21-b54d72b07737
+JavaScript warning: https://www.reclameaqui.com.br/NEVe/NNJo/bXxu/y4/v_zQ/VfkEG0phEO9t/LGsGQUshZAg/MW4nB3/EyV30B, line 1: unreachable code after return statement
+1667867928106	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://www.reclameaqui.com.br/NEVe/NNJo/bXxu/y4/v_zQ/VfkEG0phEO9t/LGsGQUshZAg/MW4nB3/EyV30B, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.reclameaqui.com.br/NEVe/NNJo/bXxu/y4/v_zQ/VfkEG0phEO9t/LGsGQUshZAg/MW4nB3/EyV30B, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/Ql2bXGNJN/7_pO1LrW/FB3frljz/E4/pf9wStfziwr9/HFFCUAE/FgcKF/T9mNhMB, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vLbRz7g6TQ5oo3iSl-9A8cc-tNTKSUSKynQIdvKxkcY.js line 2 > eval line 2655 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/Ql2bXGNJN/7_pO1LrW/FB3frljz/E4/pf9wStfziwr9/HFFCUAE/FgcKF/T9mNhMB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/Ql2bXGNJN/7_pO1LrW/FB3frljz/E4/pf9wStfziwr9/HFFCUAE/FgcKF/T9mNhMB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667867962575	Marionette	INFO	Stopped listening on port 60587
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1667867963930	geckodriver	INFO	Listening on 127.0.0.1:60780
+1667867966957	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60781" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Wind\\AppData\\Local\\Temp\\rust_mozprofilep0e6pW"
+1667867967767	Marionette	INFO	Marionette enabled
+1667867967775	Marionette	INFO	Listening on port 60790
+Read port: 60790
+WebDriver BiDi listening on ws://127.0.0.1:60781
+1667867968108	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Wind\\AppData\\Local\\Temp\\rust_mozprofilep0e6pW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60781/devtools/browser/30162b9f-5763-447e-95d5-402e79f01c63
+JavaScript warning: https://www.reclameaqui.com.br/NEVe/NNJo/bXxu/y4/v_zQ/VfkEG0phEO9t/LGsGQUshZAg/MW4nB3/EyV30B, line 1: unreachable code after return statement
+1667868019184	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://www.reclameaqui.com.br/NEVe/NNJo/bXxu/y4/v_zQ/VfkEG0phEO9t/LGsGQUshZAg/MW4nB3/EyV30B, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.reclameaqui.com.br/NEVe/NNJo/bXxu/y4/v_zQ/VfkEG0phEO9t/LGsGQUshZAg/MW4nB3/EyV30B, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/Ql2bXGNJN/7_pO1LrW/FB3frljz/E4/pf9wStfziwr9/HFFCUAE/FgcKF/T9mNhMB, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/Ql2bXGNJN/7_pO1LrW/FB3frljz/E4/pf9wStfziwr9/HFFCUAE/FgcKF/T9mNhMB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/Ql2bXGNJN/7_pO1LrW/FB3frljz/E4/pf9wStfziwr9/HFFCUAE/FgcKF/T9mNhMB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vLbRz7g6TQ5oo3iSl-9A8cc-tNTKSUSKynQIdvKxkcY.js line 2 > eval line 1290 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667868040076	Marionette	INFO	Stopped listening on port 60790
+JavaScript error: resource:///actors/LightweightThemeChild.jsm, line 38: TypeError: this.browsingContext.topChromeWindow is null
+JavaScript error: resource:///actors/LightweightThemeChild.jsm, line 38: TypeError: this.browsingContext.topChromeWindow is null
+JavaScript error: resource:///actors/LightweightThemeChild.jsm, line 38: TypeError: this.browsingContext.topChromeWindow is null
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1667874629757	geckodriver	INFO	Listening on 127.0.0.1:53483
+1667874632790	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53484" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Wind\\AppData\\Local\\Temp\\rust_mozprofile1EWECM"
+1667874633572	Marionette	INFO	Marionette enabled
+1667874633580	Marionette	INFO	Listening on port 53497
+Read port: 53497
+WebDriver BiDi listening on ws://127.0.0.1:53484
+1667874633877	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Wind\\AppData\\Local\\Temp\\rust_mozprofile1EWECM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53484/devtools/browser/8d24a66e-6946-4959-a18f-12f02b64e814
+JavaScript warning: https://www.reclameaqui.com.br/NEVe/NNJo/bXxu/y4/v_zQ/VfkEG0phEO9t/LGsGQUshZAg/MW4nB3/EyV30B, line 1: unreachable code after return statement
+1667874640222	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://www.reclameaqui.com.br/NEVe/NNJo/bXxu/y4/v_zQ/VfkEG0phEO9t/LGsGQUshZAg/MW4nB3/EyV30B, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.reclameaqui.com.br/NEVe/NNJo/bXxu/y4/v_zQ/VfkEG0phEO9t/LGsGQUshZAg/MW4nB3/EyV30B, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/Ql2bXGNJN/7_pO1LrW/FB3frljz/E4/pf9wStfziwr9/HFFCUAE/FgcKF/T9mNhMB, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/Ql2bXGNJN/7_pO1LrW/FB3frljz/E4/pf9wStfziwr9/HFFCUAE/FgcKF/T9mNhMB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/Ql2bXGNJN/7_pO1LrW/FB3frljz/E4/pf9wStfziwr9/HFFCUAE/FgcKF/T9mNhMB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vLbRz7g6TQ5oo3iSl-9A8cc-tNTKSUSKynQIdvKxkcY.js line 2 > eval line 1159 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667874752505	Marionette	INFO	Stopped listening on port 53497
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+" "C:\\Users\\Wind\\AppData\\Local\\Temp\\rust_mozprofilexXVhV0"
+1667874693278	Marionette	INFO	Marionette enabled
+1667874693287	Marionette	INFO	Listening on port 53728
+Read port: 53728
+WebDriver BiDi listening on ws://127.0.0.1:53719
+1667874693503	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Wind\\AppData\\Local\\Temp\\rust_mozprofilexXVhV0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53719/devtools/browser/05afffd1-7597-4f75-abc1-078784996c18
+JavaScript warning: https://www.reclameaqui.com.br/NEVe/NNJo/bXxu/y4/v_zQ/VfkEG0phEO9t/LGsGQUshZAg/MW4nB3/EyV30B, line 1: unreachable code after return statement
+1667874699918	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://www.reclameaqui.com.br/NEVe/NNJo/bXxu/y4/v_zQ/VfkEG0phEO9t/LGsGQUshZAg/MW4nB3/EyV30B, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.reclameaqui.com.br/NEVe/NNJo/bXxu/y4/v_zQ/VfkEG0phEO9t/LGsGQUshZAg/MW4nB3/EyV30B, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/Ql2bXGNJN/7_pO1LrW/FB3frljz/E4/pf9wStfziwr9/HFFCUAE/FgcKF/T9mNhMB, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/Ql2bXGNJN/7_pO1LrW/FB3frljz/E4/pf9wStfziwr9/HFFCUAE/FgcKF/T9mNhMB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vLbRz7g6TQ5oo3iSl-9A8cc-tNTKSUSKynQIdvKxkcY.js line 2 > eval line 3014 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/Ql2bXGNJN/7_pO1LrW/FB3frljz/E4/pf9wStfziwr9/HFFCUAE/FgcKF/T9mNhMB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667874753480	Marionette	INFO	Stopped listening on port 53728
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1667874949294	geckodriver	INFO	Listening on 127.0.0.1:50116
+1667874952307	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50117" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Wind\\AppData\\Local\\Temp\\rust_mozprofileQowYsF"
+1667874953146	Marionette	INFO	Marionette enabled
+1667874953157	Marionette	INFO	Listening on port 50126
+Read port: 50126
+WebDriver BiDi listening on ws://127.0.0.1:50117
+1667874953378	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Wind\\AppData\\Local\\Temp\\rust_mozprofileQowYsF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50117/devtools/browser/a2bc3020-acb7-4ac0-85eb-ec00a3082af7
+JavaScript warning: https://www.reclameaqui.com.br/NEVe/NNJo/bXxu/y4/v_zQ/VfkEG0phEO9t/LGsGQUshZAg/MW4nB3/EyV30B, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/NEVe/NNJo/bXxu/y4/v_zQ/VfkEG0phEO9t/LGsGQUshZAg/MW4nB3/EyV30B, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.reclameaqui.com.br/NEVe/NNJo/bXxu/y4/v_zQ/VfkEG0phEO9t/LGsGQUshZAg/MW4nB3/EyV30B, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667874958823	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://auth.reclameaqui.com.br/Ql2bXGNJN/7_pO1LrW/FB3frljz/E4/pf9wStfziwr9/HFFCUAE/FgcKF/T9mNhMB, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/Ql2bXGNJN/7_pO1LrW/FB3frljz/E4/pf9wStfziwr9/HFFCUAE/FgcKF/T9mNhMB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/Ql2bXGNJN/7_pO1LrW/FB3frljz/E4/pf9wStfziwr9/HFFCUAE/FgcKF/T9mNhMB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vLbRz7g6TQ5oo3iSl-9A8cc-tNTKSUSKynQIdvKxkcY.js line 2 > eval line 2381 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1667875793289	Marionette	INFO	Stopped listening on port 50126
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+" "localhost" "-no-remote" "-profile" "C:\\Users\\Wind\\AppData\\Local\\Temp\\rust_mozprofile7rxibs"
+1667875517714	Marionette	INFO	Marionette enabled
+1667875517722	Marionette	INFO	Listening on port 50845
+Read port: 50845
+WebDriver BiDi listening on ws://127.0.0.1:50835
+1667875517922	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Wind\\AppData\\Local\\Temp\\rust_mozprofile7rxibs\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50835/devtools/browser/7743f0f3-9aa5-4d4f-a3ce-46e6d06624b7
+JavaScript warning: https://www.reclameaqui.com.br/NEVe/NNJo/bXxu/y4/v_zQ/VfkEG0phEO9t/LGsGQUshZAg/MW4nB3/EyV30B, line 1: unreachable code after return statement
+1667875523421	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://www.reclameaqui.com.br/NEVe/NNJo/bXxu/y4/v_zQ/VfkEG0phEO9t/LGsGQUshZAg/MW4nB3/EyV30B, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.reclameaqui.com.br/NEVe/NNJo/bXxu/y4/v_zQ/VfkEG0phEO9t/LGsGQUshZAg/MW4nB3/EyV30B, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/Ql2bXGNJN/7_pO1LrW/FB3frljz/E4/pf9wStfziwr9/HFFCUAE/FgcKF/T9mNhMB, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/Ql2bXGNJN/7_pO1LrW/FB3frljz/E4/pf9wStfziwr9/HFFCUAE/FgcKF/T9mNhMB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vLbRz7g6TQ5oo3iSl-9A8cc-tNTKSUSKynQIdvKxkcY.js line 2 > eval line 2763 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/Ql2bXGNJN/7_pO1LrW/FB3frljz/E4/pf9wStfziwr9/HFFCUAE/FgcKF/T9mNhMB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667875794011	Marionette	INFO	Stopped listening on port 50845
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+" "C:\\Users\\Wind\\AppData\\Local\\Temp\\rust_mozprofileFJMo15"
+1667875714545	Marionette	INFO	Marionette enabled
+1667875714555	Marionette	INFO	Listening on port 64821
+Read port: 64821
+WebDriver BiDi listening on ws://127.0.0.1:64810
+1667875714896	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Wind\\AppData\\Local\\Temp\\rust_mozprofileFJMo15\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64810/devtools/browser/3ff02de5-9bce-414e-8f63-a264860401ed
+JavaScript warning: https://www.reclameaqui.com.br/NEVe/NNJo/bXxu/y4/v_zQ/VfkEG0phEO9t/LGsGQUshZAg/MW4nB3/EyV30B, line 1: unreachable code after return statement
+1667875721157	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://www.reclameaqui.com.br/NEVe/NNJo/bXxu/y4/v_zQ/VfkEG0phEO9t/LGsGQUshZAg/MW4nB3/EyV30B, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.reclameaqui.com.br/NEVe/NNJo/bXxu/y4/v_zQ/VfkEG0phEO9t/LGsGQUshZAg/MW4nB3/EyV30B, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/Ql2bXGNJN/7_pO1LrW/FB3frljz/E4/pf9wStfziwr9/HFFCUAE/FgcKF/T9mNhMB, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/Ql2bXGNJN/7_pO1LrW/FB3frljz/E4/pf9wStfziwr9/HFFCUAE/FgcKF/T9mNhMB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vLbRz7g6TQ5oo3iSl-9A8cc-tNTKSUSKynQIdvKxkcY.js line 2 > eval line 6301 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/Ql2bXGNJN/7_pO1LrW/FB3frljz/E4/pf9wStfziwr9/HFFCUAE/FgcKF/T9mNhMB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667875794821	Marionette	INFO	Stopped listening on port 64821
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1667875811241	geckodriver	INFO	Listening on 127.0.0.1:65041
+1667875814274	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65042" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Wind\\AppData\\Local\\Temp\\rust_mozprofilegi0IwR"
+1667875814950	Marionette	INFO	Marionette enabled
+1667875814956	Marionette	INFO	Listening on port 65051
+Read port: 65051
+WebDriver BiDi listening on ws://127.0.0.1:65042
+1667875815143	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Wind\\AppData\\Local\\Temp\\rust_mozprofilegi0IwR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65042/devtools/browser/e724f99b-1318-4614-bb45-0be33ff98a61
+JavaScript warning: https://www.reclameaqui.com.br/NEVe/NNJo/bXxu/y4/v_zQ/VfkEG0phEO9t/LGsGQUshZAg/MW4nB3/EyV30B, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/NEVe/NNJo/bXxu/y4/v_zQ/VfkEG0phEO9t/LGsGQUshZAg/MW4nB3/EyV30B, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667875820337	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://www.reclameaqui.com.br/NEVe/NNJo/bXxu/y4/v_zQ/VfkEG0phEO9t/LGsGQUshZAg/MW4nB3/EyV30B, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/Ql2bXGNJN/7_pO1LrW/FB3frljz/E4/pf9wStfziwr9/HFFCUAE/FgcKF/T9mNhMB, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/Ql2bXGNJN/7_pO1LrW/FB3frljz/E4/pf9wStfziwr9/HFFCUAE/FgcKF/T9mNhMB, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/Ql2bXGNJN/7_pO1LrW/FB3frljz/E4/pf9wStfziwr9/HFFCUAE/FgcKF/T9mNhMB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/Ql2bXGNJN/7_pO1LrW/FB3frljz/E4/pf9wStfziwr9/HFFCUAE/FgcKF/T9mNhMB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vLbRz7g6TQ5oo3iSl-9A8cc-tNTKSUSKynQIdvKxkcY.js line 2 > eval line 4102 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1667876050100	Marionette	INFO	Stopped listening on port 65051
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+e	INFO	Marionette enabled
+1667875924022	Marionette	INFO	Listening on port 49561
+Read port: 49561
+WebDriver BiDi listening on ws://127.0.0.1:49552
+1667875924222	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Wind\\AppData\\Local\\Temp\\rust_mozprofilePh5Nh5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49552/devtools/browser/922fd649-fec3-4339-ae7e-e33c956174a0
+JavaScript warning: https://www.reclameaqui.com.br/NEVe/NNJo/bXxu/y4/v_zQ/VfkEG0phEO9t/LGsGQUshZAg/MW4nB3/EyV30B, line 1: unreachable code after return statement
+1667875929489	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://www.reclameaqui.com.br/NEVe/NNJo/bXxu/y4/v_zQ/VfkEG0phEO9t/LGsGQUshZAg/MW4nB3/EyV30B, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.reclameaqui.com.br/NEVe/NNJo/bXxu/y4/v_zQ/VfkEG0phEO9t/LGsGQUshZAg/MW4nB3/EyV30B, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/Ql2bXGNJN/7_pO1LrW/FB3frljz/E4/pf9wStfziwr9/HFFCUAE/FgcKF/T9mNhMB, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/Ql2bXGNJN/7_pO1LrW/FB3frljz/E4/pf9wStfziwr9/HFFCUAE/FgcKF/T9mNhMB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vLbRz7g6TQ5oo3iSl-9A8cc-tNTKSUSKynQIdvKxkcY.js line 2 > eval line 5122 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://auth.reclameaqui.com.br/Ql2bXGNJN/7_pO1LrW/FB3frljz/E4/pf9wStfziwr9/HFFCUAE/FgcKF/T9mNhMB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667876053362	Marionette	INFO	Stopped listening on port 49561
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
