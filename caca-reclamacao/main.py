@@ -13,13 +13,11 @@ from bs4 import BeautifulSoup
 from os import path
 from os import getcwd
 import csv
-
-url_base = "https://www.reclameaqui.com.br/empresa/c6-bank/lista-reclamacoes/?busca=pix&pagina="
+from palavras_chave import palavras_chave
 
 option = Options()
 option.headless = False
 driver = webdriver.Firefox(options=option, executable_path=GeckoDriverManager().install())
-driver.get(url=url_base)
 
 i = 1
 
@@ -61,103 +59,39 @@ while i <= 25:
             textosUnicos.append(palavraTratada)
             
         for palavra in titulosUnicos:
-            if(
-                palavra == "lentidão" or 
-                palavra == "lento" or 
-                palavra == "travamento" or 
-                palavra == "travou" or
-                palavra == "bloqueio" or
-                palavra == "bloqueado" or
-                palavra == "caiu" or
-                palavra == "caindo" or
-                palavra == "transferência" or
-                palavra == "pagamento" or
-                palavra == "falha" or
-                palavra == "falhou" or
-                palavra == "app" or
-                palavra == "aplicativo" or
-                palavra == "demora" or
-                palavra == "zerado" or
-                palavra == "token" or
-                palavra == "validação" or
-                palavra == "qrcode" or
-                palavra == "scanner" or
-                palavra == "camera" or
-                palavra == "sumir" or
-                palavra == "sumir" or
-                palavra == "cancelado" or
-                palavra == "cancelamento" or
-                palavra == "cancelar" or
-                palavra == "receber" or
-                palavra == "extorno" or
-                palavra == "extornar"
-            ):
-                titulos.append(palavra)
+            for x in palavras_chave:
+                if palavra == x:
+                    titulos.append(palavra)
+                    
+                    caminho = getcwd()
                 
-                caminho = getcwd()
-                
-                if path.isfile(f'{caminho}\words_scraper.csv'):
-                    with open('words_scraper.csv', 'a', newline='', encoding='UTF8') as arquivo:
-                        writer = csv.DictWriter(arquivo, fieldnames=['Palavra'])
-                        writer.writerow({'Palavra': palavra})
-                else:
-                    with open('words_scraper.csv', 'w', newline='', encoding='UTF8') as arquivo:
-                        writer = csv.DictWriter(arquivo, fieldnames=['Palavra'])
-                        writer.writeheader()
-                        writer.writerow({'Palavra': palavra})
+                    if path.isfile(f'{caminho}\words_scraper.csv'):
+                        with open('words_scraper.csv', 'a', newline='', encoding='UTF8') as arquivo:
+                            writer = csv.DictWriter(arquivo, fieldnames=['Palavra'])
+                            writer.writerow({'Palavra': palavra})
+                    else:
+                        with open('words_scraper.csv', 'w', newline='', encoding='UTF8') as arquivo:
+                            writer = csv.DictWriter(arquivo, fieldnames=['Palavra'])
+                            writer.writeheader()
+                            writer.writerow({'Palavra': palavra})
                 
         for palavra in textosUnicos:
-            if(
-                palavra == "lentidão" or 
-                palavra == "lento" or 
-                palavra == "travamento" or 
-                palavra == "travou" or
-                palavra == "bloqueio" or
-                palavra == "bloqueado" or
-                palavra == "caiu" or
-                palavra == "caindo" or
-                palavra == "transferência" or
-                palavra == "pagamento" or
-                palavra == "falha" or
-                palavra == "falhou" or
-                palavra == "app" or
-                palavra == "aplicativo" or
-                palavra == "demora" or
-                palavra == "zerado" or
-                palavra == "token" or
-                palavra == "validação" or
-                palavra == "qrcode" or
-                palavra == "scanner" or
-                palavra == "camera" or
-                palavra == "sumir" or
-                palavra == "sumir" or
-                palavra == "cancelado" or
-                palavra == "cancelamento" or
-                palavra == "cancelar" or
-                palavra == "receber" or
-                palavra == "extorno" or
-                palavra == "extornar"
-            ):
-                textos.append(palavra)
+            for x in palavras_chave:
+                if palavra == x:
+                    textos.append(palavra)
+                    
+                    caminho = getcwd()
                 
-                caminho = getcwd()
-                
-                if path.isfile(f'{caminho}\words_scraper.csv'):
-                    with open('words_scraper.csv', 'a', newline='', encoding='UTF8') as arquivo:
-                        writer = csv.DictWriter(arquivo, fieldnames=['Palavra'])
-                        writer.writerow({'Palavra': palavra})
-                else:
-                    with open('words_scraper.csv', 'w', newline='', encoding='UTF8') as arquivo:
-                        writer = csv.DictWriter(arquivo, fieldnames=['Palavra'])
-                        writer.writeheader()
-                        writer.writerow({'Palavra': palavra})
+                    if path.isfile(f'{caminho}\words_scraper.csv'):
+                        with open('words_scraper.csv', 'a', newline='', encoding='UTF8') as arquivo:
+                            writer = csv.DictWriter(arquivo, fieldnames=['Palavra'])
+                            writer.writerow({'Palavra': palavra})
+                    else:
+                        with open('words_scraper.csv', 'w', newline='', encoding='UTF8') as arquivo:
+                            writer = csv.DictWriter(arquivo, fieldnames=['Palavra'])
+                            writer.writeheader()
+                            writer.writerow({'Palavra': palavra})
                         
-        
-        
-        # print(titulo[0].get_text())
-        # print('~X------------V----------X~')
-        # print(texto[0].get_text())
-        # print('~X------------^----------X~')
     print("Titulos: \n")
     for palavra in titulos:
         print(palavra + '\n')
@@ -167,18 +101,3 @@ while i <= 25:
         
         
     i += 1
-
-# print("AAA" + type(texto))
-
-# print(sopa.prettify())
-
-# chrome_options = Options()
-# chrome_options.add_argument("--headless")
-
-# driver = webdriver.Chrome(url_base + '\chromedriver.exe', options = chrome_options)
-
-# # driver.get(url = "https://www.reclameaqui.com.br/empresa/c6-bank/lista-reclamacoes/?busca=pix&pagina", self=driver.get)
-
-# # reclamacoes = []
-# # tituloReclamacao = []
-# # link = []
