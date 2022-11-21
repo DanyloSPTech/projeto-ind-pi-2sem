@@ -270,15 +270,19 @@ function gerar(idEmpresa, idMaquina) {
             };
         }else if(nomeSplit == "Ter"){
             var data = {
-                labels: 'Temperatura',
+                labels: ['ºC'],
                 datasets: [{
+                    axis: 'y',
                     label: `Termometro | Unidade de Medida: º C`,
-                    backgroundColor: 'rgba(255, 250, 250, 0.8)',
-                    borderColor: 'rgba(255, 250, 250, 0.8)',
-                    data: [35],
-                    fill: true
+                    backgroundColor: ['rgba(255, 250, 250, 0.8)'],
+                    borderColor: ['rgba(255, 250, 250, 0.8)'],
+                    borderRadius: 10,
+                    data: [retorno[0].registro],
+                    // fill: true
                 }]
             }
+
+            console.log("OLHA AQUI: " + retorno[0].registro);
     
             var config = {
                 type: 'bar',
@@ -288,50 +292,26 @@ function gerar(idEmpresa, idMaquina) {
                     indexAxis: 'y',
                     elements: {
                         bar: {
-                            borderWidth: 2,
+                            borderWidth: 1,
                         }
                     },
                     scales: {
-                            x: {
-                                min: 0,
-                                max: 100,
-                                barPerPercentage: 1
-                            },
-                        },
-                    // scales: {
-                    //     y: {
-                    //         min: 0,
-                    //         max: 100,
-                    //         grid: {
-                    //             display: false
-                    //         },
-                    //         ticks: {
-                    //             color: 'white',
-                    //             font:{
-                    //                 size: 10
-                    //             }
-                    //         }
-                    //     },
-                    //     x: {
-                    //         grid: {
-                    //             display: false
-                    //         },
-                    //         ticks: {
-                    //             color: 'white',
-                    //             font:{
-                    //                 size: 7
-                    //             }
-                    //         }
-                    //     }
-                    // },
-                    plugins: {
-                        legend: {
-                            labels: {
-                                color: 'white',
-                                font:{
-                                    size: 12
-                                }
+                        x: {
+                            min: 0,
+                            max: 100,
+                            grid: {
+                                display: false
                             }
+                        }
+                    },
+                    plugins: {
+                        datalabels: {
+                          anchor: 'end',
+                          align: 'top',
+                          formatter: Math.round,
+                          font: {
+                            weight: 'bold'
+                          }
                         }
                     },
                     responsive: true,
