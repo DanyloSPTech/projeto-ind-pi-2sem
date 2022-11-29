@@ -9,6 +9,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.support.wait import WebDriverWait as wait
 from bs4 import BeautifulSoup
 from os import path
 from os import getcwd
@@ -32,10 +33,19 @@ option.add_argument("--headless")
 option.add_argument(f"user-agent={user_agente}")
 driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=option)
 
+# driver = webdriver.Chrome(ChromeDriverManager().install())
+
 i = 1
 
 titulos = []
 textos = []
+
+# Nao Respondidas
+nr = 0
+# Respondidas
+r = 0
+# Resolvido
+rs = 0
 
 while i <= 25:
     url_base = f"https://www.reclameaqui.com.br/empresa/c6-bank/lista-reclamacoes/?busca=pix&pagina={i}"
@@ -49,6 +59,8 @@ while i <= 25:
     sopa = BeautifulSoup(cont_html, 'html.parser')
 
     lista_reclamacao = sopa.find_all('div', class_ = 'bJdtis')
+    
+    lista_status = sopa.find_all('span', class_ = 'sc-1pe7b5t-4')
 
     # print(lista_reclamacao)
 
@@ -63,14 +75,12 @@ while i <= 25:
         palavrasTi = tituloStr.split()
         for palavra in palavrasTi:
             palavraTratada = palavra.lower()
-            print(palavraTratada + '\n-------------')
             titulosUnicos.append(palavraTratada)
 
         textoStr = str(texto[0].get_text())
         palavrasTe = textoStr.split()
         for palavra in palavrasTe:
             palavraTratada = palavra.lower()
-            print(palavraTratada + '\n-------------')
             textosUnicos.append(palavraTratada)
             
         for palavra in titulosUnicos:
@@ -89,7 +99,7 @@ while i <= 25:
                             writer = csv.DictWriter(arquivo, fieldnames=['Palavra'])
                             writer.writeheader()
                             writer.writerow({'Palavra': palavra})
-                
+                                            
         for palavra in textosUnicos:
             for x in palavras_chave:
                 if palavra == x:
@@ -106,18 +116,27 @@ while i <= 25:
                             writer = csv.DictWriter(arquivo, fieldnames=['Palavra'])
                             writer.writeheader()
                             writer.writerow({'Palavra': palavra})
-                        
-    print("Titulos: \n")
-    for palavra in titulos:
-        print(palavra + '\n')
-    print("\n\nTextos:\n")
-    for palavra in textos:
-        print(palavra + '\n')
+                            
+    for status in lista_status:
+        txtStatus = status.get_text()
+        if txtStatus == 'Resolvido':
+            rs += 1
+        elif txtStatus == 'Respondida':
+            r += 1
+        elif txtStatus == 'Não respondida':
+            nr += 1
         
         
     i += 1
     
 driver.close()
 
+with open('status_scraper.csv', 'w', newline='', encoding='UTF8') as arquivo:
+    writer = csv.writer(arquivo)
+    writer.writerow(['Status', 'Total'])
+    writer.writerow(['Resolvidas', rs])
+    writer.writerow(['Respondidas', r])
+    writer.writerow(['Não Respondidas', nr])
+
 # Chamando script em R responsável por gerar a wordcloud
-subprocess.call(['Rscript', 'E:/Users/Danyl/Documents/GitHub/projeto-ind-pi-2sem/caca-reclamacao/wordcloud/script_word_cloud.r'])
+subprocess.call(['Rscript', 'E:/Users/Danyl/Documents/GitHub/projeto-ind-pi-2sem/caca-reclamacao/script_word_cloud.r'])
