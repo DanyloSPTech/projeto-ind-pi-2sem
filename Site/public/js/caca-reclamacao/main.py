@@ -92,7 +92,7 @@ while i <= 25:
                     
                     if so == 'Windows':
                         # if path.isfile(f'{caminho}\words_scraper.csv'):
-                        if path.isfile(f'{caminho}\public\js\caca-reclamacao\words_scraper.csv'):
+                        if path.isfile(f'{caminho}\public\js\caca-reclamacao\words_scraper.csv') and i != 1:
                             with open('public/js/caca-reclamacao/words_scraper.csv', 'a', newline='', encoding='UTF8') as arquivo:
                                 writer = csv.DictWriter(arquivo, fieldnames=['Palavra'])
                                 # writer.writerow({'Palavra': palavra})
@@ -105,7 +105,7 @@ while i <= 25:
                                 writer.writerow({'Palavra': palavra})
                     elif so == 'Linux':
                         # if path.isfile(f'{caminho}\words_scraper.csv'):
-                        if path.isfile(f'{caminho}/public/js/caca-reclamacao/words_scraper.csv'):
+                        if path.isfile(f'{caminho}/public/js/caca-reclamacao/words_scraper.csv') and i != 1:
                             with open('public/js/caca-reclamacao/words_scraper.csv', 'a', newline='', encoding='UTF8') as arquivo:
                                 writer = csv.DictWriter(arquivo, fieldnames=['Palavra'])
                                 # writer.writerow({'Palavra': palavra})
@@ -128,7 +128,7 @@ while i <= 25:
                 
                     if so == 'Windows':
                         # if path.isfile(f'{caminho}\words_scraper.csv'):
-                        if path.isfile(f'{caminho}\public\js\caca-reclamacao\words_scraper.csv'):
+                        if path.isfile(f'{caminho}\public\js\caca-reclamacao\words_scraper.csv') and i != 1:
                             with open('public/js/caca-reclamacao/words_scraper.csv', 'a', newline='', encoding='UTF8') as arquivo:
                                 writer = csv.DictWriter(arquivo, fieldnames=['Palavra'])
                                 # writer.writerow({'Palavra': palavra})
@@ -141,7 +141,7 @@ while i <= 25:
                                 writer.writerow({'Palavra': palavra})
                     elif so == 'Linux':
                         # if path.isfile(f'{caminho}\words_scraper.csv'):
-                        if path.isfile(f'{caminho}/public/js/caca-reclamacao/words_scraper.csv'):
+                        if path.isfile(f'{caminho}/public/js/caca-reclamacao/words_scraper.csv') and i != 1:
                             with open('public/js/caca-reclamacao/words_scraper.csv', 'a', newline='', encoding='UTF8') as arquivo:
                                 writer = csv.DictWriter(arquivo, fieldnames=['Palavra'])
                                 # writer.writerow({'Palavra': palavra})
@@ -175,4 +175,4 @@ with open('public/js/caca-reclamacao/status_scraper.csv', 'w', newline='', encod
     writer.writerow(['Não Respondidas', nr])
 
 # Chamando script em R responsável por gerar a wordcloud
-subprocess.call(['Rscript', f'{caminho}/public/js/caca-reclamacao/script_word_cloud.r'])
+subprocess.call(['Rscript', f'{caminho}/public/js/caca-reclamacao/script_word_cloud.R'])
